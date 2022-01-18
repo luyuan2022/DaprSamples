@@ -17,7 +17,7 @@ namespace DaprGrpc.Controllers
         [Route("all")]
         public ActionResult<List<UserInfo>> ListUser()
         {
-            _logger.LogInformation("调用了 UserController->ListUser方法11123");
+            _logger.LogInformation("调用了 UserController->ListUser方法11123456");
             var userList = new List<UserInfo>()
             {
                 new UserInfo(1001,"zhangsan",20),
